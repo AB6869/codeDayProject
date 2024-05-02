@@ -1,0 +1,26 @@
+# DO NOT include azure-functions-worker in this file
+# The Python Worker is managed by Azure Functions platform
+# Manually managing azure-functions-worker may cause unexpected issues
+
+azure-functions
+pymongo==4.1.1
+pyodbc==4.0.35
+requests==2.22.0
+zeep==4.1.0
+azure-storage-blob==12.19.0
+azure-storage-queue==12.9.0
+azure-cosmosdb-table==1.0.6
+adal==1.2.2
+aiohttp==3.8.4
+sendgrid==6.1.0
+paramiko==3.1.0
+mysql-connector-python==8.0.20
+sshtunnel==0.1.5
+backoff==1.10.0
+attrs==20.2.0 
+cattrs==23.1.2
+decorator==5.0.7 
+python-dateutil==2.8.2
+pycryptodome==3.15.0
+multidict==6.0.2
+xmltodict
